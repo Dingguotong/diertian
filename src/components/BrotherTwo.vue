@@ -5,7 +5,7 @@
           <h3>正在进行</h3>
           <!-- 计数 -->
               <span>{{gtjx}}</span>
-          <!-- 循环渲染，并且判断是否显示 -->
+          <!-- 循环渲染，并且判断是否显示. -->
           <p v-for='(a,i) in msg' v-if='!a.check'>
               <!-- 复选框 -->
               <input type="checkbox" @click='bian(i)' :checked='a.check'>
